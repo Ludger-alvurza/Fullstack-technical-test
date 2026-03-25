@@ -151,6 +151,36 @@ Fullstack Technical Test/
 
 ---
 
+## Screenshot UI
+
+### 📊 Data Penjualan
+Tabel data penjualan dengan fitur pencarian, filter status, dan pagination. Menampilkan product_id, nama produk, jumlah penjualan, harga, diskon, dan status Laris/Tidak.
+
+![Data Penjualan](assets/data-penjualan.png)
+
+---
+
+### 🟢 Filter Produk Laris
+Tampilan tabel saat difilter hanya menampilkan produk dengan status **Laris** — memudahkan analisis produk unggulan.
+
+![Filter Produk Laris](assets/filter-produk-laris.png)
+
+---
+
+### 🔴 Filter Produk Tidak Laris
+Tampilan tabel saat difilter hanya menampilkan produk dengan status **Tidak Laris** — membantu mengidentifikasi produk yang perlu perhatian.
+
+![Filter Produk Tidak Laris](assets/filter-produk-tidak-laris.png)
+
+---
+
+### 🤖 Form Prediksi Produk
+Form input untuk memprediksi status produk baru menggunakan ML model (Random Forest). User memasukkan jumlah penjualan, harga, dan diskon, lalu sistem mengembalikan prediksi **Laris / Tidak Laris** beserta confidence score.
+
+![Prediksi Produk](assets/prediksi-produk.png)
+
+---
+
 ## Design Decisions
 
 ### Machine Learning
